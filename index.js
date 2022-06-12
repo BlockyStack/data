@@ -28,7 +28,7 @@ const colors = [
   ["98DDCA", "D5ECC2", "FFD3B4", "FFAAA7"],
 ];
 
-console.log(JSON.stringify(colors.flat()))
+fs.writeFileSync("./json/_data.json", JSON.stringify(colors.flat()));
 
 for (let i = 0; i < colors.length; i++) {
   const color = colors[i];
