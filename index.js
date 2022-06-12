@@ -28,7 +28,11 @@ const colors = [
   ["98DDCA", "D5ECC2", "FFD3B4", "FFAAA7"],
 ];
 
-fs.writeFileSync("./json/colors.json", JSON.stringify(colors.flat()));
+const flat = colors.flat();
+const hex = flat.map((color) => `#${color}`);
+const int = flat.map((color) => parseInt(color, 16));
+fs.writeFileSync("./json/hex.json", JSON.stringify(hex));
+fs.writeFileSync("./json/int.json", JSON.stringify(int));
 
 for (let i = 0; i < colors.length; i++) {
   const color = colors[i];
