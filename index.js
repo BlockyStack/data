@@ -40,6 +40,7 @@ for (let i = 0; i < colors.length; i++) {
     const json = {
       name: `Oasis Stack #${parseInt(color[j], 16)}`,
       description: `Palette #${i}`,
+      image: `https://raw.githubusercontent.com/oasis-stack/data/main/img/${parseInt(color[j], 16)}.png`,
       edition: i,
       attributes: [
         {
