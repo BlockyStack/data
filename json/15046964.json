@@ -1,0 +1,19 @@
+{
+  "name": "Oasis Stack #15046964",
+  "description": "Palette #19",
+  "edition": 19,
+  "attributes": [
+    {
+      "trait_type": "id",
+      "value": 15046964
+    },
+    {
+      "trait_type": "hex",
+      "value": "#E59934"
+    },
+    {
+      "trait_type": "palette",
+      "value": 19
+    }
+  ]
+}
