@@ -1,6 +1,6 @@
 {
   "name": "Oasis Stack #12554864",
-  "description": "Palette #16",
+  "description": "Palette #16 https://blockystack.com",
   "image": "https://raw.githubusercontent.com/oasis-stack/data/main/img/12554864.png",
   "edition": 16,
   "attributes": [
@@ -15,6 +15,10 @@
     {
       "trait_type": "palette",
       "value": 16
+    },
+    {
+      "trait_type": "website",
+      "value": "https://blockystack.com"
     }
   ]
 }

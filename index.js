@@ -39,7 +39,7 @@ for (let i = 0; i < colors.length; i++) {
   for (let j = 0; j < color.length; j++) {
     const json = {
       name: `Oasis Stack #${parseInt(color[j], 16)}`,
-      description: `Palette #${i}`,
+      description: `Palette #${i} https://blockystack.com`,
       image: `https://raw.githubusercontent.com/oasis-stack/data/main/img/${parseInt(color[j], 16)}.png`,
       edition: i,
       attributes: [
@@ -54,6 +54,10 @@ for (let i = 0; i < colors.length; i++) {
         {
           trait_type: "palette",
           value: i,
+        },
+        {
+          trait_type: "website",
+          value: "https://blockystack.com",
         },
       ],
     };
